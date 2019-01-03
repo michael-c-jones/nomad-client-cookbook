@@ -1,0 +1,13 @@
+{
+  "name": "nomad-client",
+  "version": "0.0.1",
+  "maintainer": "devops",
+  "description": "Installs/Configures a nomad server",
+  "long_description": "Installs/Configures a nomad client",
+  "dependencies": {
+    "nomad": ">= 0.0.0",
+    "docker": ">= 0.0.0",
+    "iptables": ">= 0.0.0",
+    "java": ">= 0.0.0"
+  }
+}

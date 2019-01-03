@@ -1,0 +1,3 @@
+-A FWR -p tcp --match multiport --dports <%= node['nomad-client']['ephemeral-port-range'] %>
+-A FWR -p udp --match multiport --dports <%= node['nomad-client']['ephemeral-port-range'] %>
+
